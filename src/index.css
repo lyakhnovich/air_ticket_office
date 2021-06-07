@@ -1,0 +1,58 @@
+body {
+  background-color: #5cc5ff;
+}
+
+
+.air-ticket-office {
+  background-color: white;
+  margin: 70px auto;
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #efefef;
+  padding: 30px;
+}
+
+
+h2 {
+  width: 100vw;
+  position: relative;
+
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.form-field {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: 100px;
+  grid-template-areas: "origin destination dates dates passengers submit";
+}
+
+.origin {
+  position: relative;
+  grid-area: origin;
+}
+
+.destination {
+  position: relative;
+  grid-area: destination;
+}
+
+.dates {
+  position: relative;
+  grid-area: dates
+}
+
+.passengers {
+  position: relative;
+  grid-area: passengers
+}
+
+.submit {
+  position: relative;
+  grid-area: submit
+}
