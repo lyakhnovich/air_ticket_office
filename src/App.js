@@ -13,38 +13,32 @@ function App() {
       <form className='form-field'>
 
           <div className='origin'>
-            <label>откуда</label>
-            <div>
-              <DestinationInput/>
-            </div>
+            <label>откуда</label><br />
+            <DestinationInput/>
           </div>
 
           <div className='destination'>
-            <label>куда</label>
-            <div>
+              <label>куда</label><br />
               <DestinationInput/>
-            </div>
+
           </div>
 
-          <div className='dates'>
-            <div>
+            <div className='departure'>
               <DateInput/>
             </div>
-          </div>
 
-          <div className='dates'>
-            <div>
+            <div className='return'>
               <DateInput/>
             </div>
-          </div>
+
 
           <div className='passengers'>
-            <label>пассажиры и класс</label>
+            <label>пассажиры и класс</label><br />
             <PassNclass/>
           </div>
 
           <div className='submit'>
-            <button>Найти билеты</button>
+            <button className='btn'>Найти билеты</button>
           </div>
 
       </form>
