@@ -7,7 +7,7 @@ class nFlightController {
 
   }
 
-  async check(req, res) {
+  async getOne(req, res) {
 
   }
 }
