@@ -1,6 +1,6 @@
 import {makeAutoObservable} from "mobx";
 
-export default class UserStore {
+export default class UserBooking {
   constructor() {
     this._isAuth = false
     this._user = {}
@@ -19,9 +19,7 @@ export default class UserStore {
     return this._isAuth
   }
   get user() {
-    return this.user
+    return this._user
   }
-
-
 
 }

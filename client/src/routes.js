@@ -3,8 +3,6 @@ import Admin from './pages/Admin'
 import Booking from "./pages/Booking";
 import Auth from "./pages/Auth";
 
-
-
 export const authRoutes = [
   {
     path: ADMIN_ROUTE,
